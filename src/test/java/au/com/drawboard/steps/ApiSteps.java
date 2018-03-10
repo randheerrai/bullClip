@@ -75,6 +75,7 @@ public class ApiSteps {
     public Response create_user_profile(String firstName, String lastName, String company,
                                         String department,String title, String phone){
         response = apiPage.createUserProfile(firstName,lastName,company,department,title,phone);
+        response.then().statusCode(200);
         return response;
     }
 }
