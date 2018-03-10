@@ -1,0 +1,18 @@
+To run this project follow the steps
+
+Pre-requisites
+    System should have maven and JDK8 installed
+    Note: This project does not run with JAVA9
+
+Download the project
+Navigate to project directory and run following command to run all tests
+'mvn clean verify'
+
+To run create user test run following command
+'mvn clean verify -Dtags=createuser'
+
+To run create user profile tests ,run follwoing
+'mvn clean verify -Dtags=userprofile'
+
+
+//bullClipApi/target/site/serenity/index.html
